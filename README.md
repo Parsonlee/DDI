@@ -1,5 +1,4 @@
 # DDI
-1
 
 - SOTA
   - architecture: SiameseCNN
