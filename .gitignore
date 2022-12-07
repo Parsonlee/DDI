@@ -1,5 +1,5 @@
-/attnSim_data
 /fusion_data
+/Results
 
 results.ipynb
 model_checkpoint.pth
