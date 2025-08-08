@@ -1,14 +1,14 @@
 # CNN-Siam: Multimodal Siamese CNN-based deep learning approach for drug‒drug interaction prediction
 
-_DDI.ipynb_: The code for DDI prediction task.  
-_Ranger-Optimizer_: Ranger optimizer sourece codes for PyTorch.
-_/data_: Contains event.db file, which includes 572 drugs with chemical substructure(smile form), targets, enzyme and pathways.  
+- `DDI.ipynb`: The code for DDI prediction task.  
+- `/Ranger-Optimizer`: Ranger optimizer sourece codes for PyTorch.  
+- `/data`: Contains `event.db` file, which includes 572 drugs with chemical substructure(smile form), targets, enzyme and pathways.  
 
-About CNN-Siam:
+## About CNN-Siam:
 
-- Architecture: Siamese 1-Dimensional CNN
+- **Architecture**: Siamese 1-Dimensional CNN
 
-- Trick:
+- **Trick**:
 
   - Residual-connection,
   - Ranger(RAdam+LookAhead),
@@ -16,7 +16,7 @@ About CNN-Siam:
   - Focal-loss,
   - Sum embeddings of a pair of drug
 
-- Hyperparameters:
+- **Hyperparameters**:
 
   - batch_size=256,
   - lr=1e-3,
